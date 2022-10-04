@@ -11,6 +11,12 @@ h1 {
   color: white;
   font-size: 40px;
 }
+h2 {
+  font-family: 'DynaPuff', cursive;
+  font-family: 'Peralta', cursive;
+  color: white;
+  font-size: 30px;
+}
 #one, #two {
   font-family: 'DynaPuff', cursive;
   font-family: 'Peralta', cursive;
@@ -19,4 +25,5 @@ h1 {
   background-color: white;
   border-radius: 20px;
   font-size: 20px;
+  padding: 20px;
 }

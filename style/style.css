@@ -1,4 +1,4 @@
-.header, .image-container {
+.header, .image-container, .btn {
   display: flex;
   justify-content: center;
 }

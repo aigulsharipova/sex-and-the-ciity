@@ -2,3 +2,12 @@
   display: flex;
   justify-content: center;
 }
+body {
+  background-color: black;
+}
+h1 {
+  font-family: 'DynaPuff', cursive;
+  font-family: 'Peralta', cursive;
+  color: white;
+  font-size: 40px;
+}

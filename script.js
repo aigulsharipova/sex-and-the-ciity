@@ -6,5 +6,6 @@ const btnTwo = document.querySelector('#two');
 
 btnOne.addEventListener('click', mrBig);
 function mrBig() {
-  image.setAttribute("src", "./style/photo2.jpeg")
+  image.setAttribute("src", "./style/photo2.jpg");
+  text.innerHTML = "Will they get married?"
 }

@@ -2,7 +2,7 @@
 
 The app is help Carrier to choose boyfriend in Sex in the city.
 
-- ## [Carrie](https://sex-and-city.glitch.me/)
+- ## [Carrie](https://sex-andthe-city.glitch.me/)
 
 ---
 

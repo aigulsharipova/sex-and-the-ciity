@@ -6,11 +6,22 @@ const btnTwo = document.querySelector('#two');
 
 btnOne.addEventListener('click', mrBig);
 function mrBig() {
-image.setAttribute("src", "./style/photo2.jpg");
-text.innerHTML = "Will they get married?"
-btnOne.innerHTML = "Someday!"
-btnTwo.innerHTML = "No! Never"
+  image.setAttribute("src", "./style/photo2.webp");
+  text.innerHTML = "Will they get married?";
+  btnOne.innerHTML = "Someday!";
+  btnTwo.innerHTML = "No! Never";
+
+  btnOne.addEventListener('click', wedding);
 }
+
+function wedding() {
+  image.setAttribute("src", "./style/photo.jpg")
+  text.innerHTML = "They will get married, but they will not have children";
+  btnOne.style = "dispay: none";
+  btnTwo.style = "dispay: none";
+}
+
+
 
 btnTwo.addEventListener('click', aidon);
 function aidon() {

@@ -24,7 +24,7 @@ function wedding() {
 
 function noWedding() {
   image.setAttribute("src", "./style/photo4.jpg")
-  text.innerHTML = "They will break up";
+  text.innerHTML = "He will leave Carrie";
   btnOne.style = "display: none";
   btnTwo.style = "display: none";
 }
@@ -35,4 +35,21 @@ image.setAttribute("src", "./style/photo3.webp");
 text.innerHTML = "Will they get married?"
 btnOne.innerHTML = "Someday!"
 btnTwo.innerHTML = "No! Never"
+
+btnOne.addEventListener('click', weddingAidon);
+btnTwo.addEventListener('click', noWeddingAidon);
+}
+
+function weddingAidon() {
+  image.setAttribute("src", "./style/photo5.png")
+  text.innerHTML = "They will get married and will be happy";
+  btnOne.style = "display: none";
+  btnTwo.style = "display: none";
+}
+
+function noWeddingAidon() {
+  image.setAttribute("src", "./style/photo7.jpeg")
+  text.innerHTML = "She will leave Aidan";
+  btnOne.style = "display: none";
+  btnTwo.style = "display: none";
 }

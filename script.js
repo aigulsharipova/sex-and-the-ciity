@@ -8,10 +8,14 @@ btnOne.addEventListener('click', mrBig);
 function mrBig() {
 image.setAttribute("src", "./style/photo2.jpg");
 text.innerHTML = "Will they get married?"
+btnOne.innerHTML = "Someday!"
+btnTwo.innerHTML = "No! Never"
 }
 
 btnTwo.addEventListener('click', aidon);
 function aidon() {
 image.setAttribute("src", "./style/photo3.webp");
 text.innerHTML = "Will they get married?"
+btnOne.innerHTML = "Someday!"
+btnTwo.innerHTML = "No! Never"
 }

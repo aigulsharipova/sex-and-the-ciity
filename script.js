@@ -5,6 +5,8 @@ const btnOne = document.querySelector('#one');
 const btnTwo = document.querySelector('#two');
 
 btnOne.addEventListener('click', mrBig);
+btnTwo.addEventListener('click', aidon);
+
 function mrBig() {
   image.setAttribute("src", "./style/photo2.webp");
   text.innerHTML = "Will they get married?";

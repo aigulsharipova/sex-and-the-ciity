@@ -12,16 +12,22 @@ function mrBig() {
   btnTwo.innerHTML = "No! Never";
 
   btnOne.addEventListener('click', wedding);
+  btnTwo.addEventListener('click', noWedding);
 }
 
 function wedding() {
   image.setAttribute("src", "./style/photo.jpg")
-  text.innerHTML = "They will get married, but they will not have children";
-  btnOne.style = "dispay: none";
-  btnTwo.style = "dispay: none";
+  text.innerHTML = "They will get married, but <p> they will not have children";
+  btnOne.style = "display: none";
+  btnTwo.style = "display: none";
 }
 
-
+function noWedding() {
+  image.setAttribute("src", "./style/photo4.jpg")
+  text.innerHTML = "They will break up";
+  btnOne.style = "display: none";
+  btnTwo.style = "display: none";
+}
 
 btnTwo.addEventListener('click', aidon);
 function aidon() {
